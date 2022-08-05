@@ -1,0 +1,294 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+    
+    
+}
+body {
+    margin: 0 auto;
+    background-position:center;
+    height: 600px;
+    background: #F5F7FA;
+    text-decoration: none;
+}
+/* Header */
+
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+
+.Header {
+    display: flex;
+    margin-left:27px;
+    padding-right: 20px;
+}
+
+.header-img {
+    padding-top: 20px;  
+    padding-left: 49px;
+    
+}
+
+.header-img svg {
+    position: absolute;
+    top: 20px;
+}
+
+/* Body section */
+section {
+    padding-top: 70px;
+}
+
+    /*Baemin là gì */
+.content {
+    height: 90vh;
+    scroll-snap-align: start;
+    width: 900px;
+    display: flex;
+    transition: all 0.5s ease-in-out;
+    
+}
+
+.menu { 
+   display: flex;
+   justify-content: end;
+}
+
+.menu a {
+    color:#141619;
+    text-align: center;
+    padding: 10px 0;
+    padding-right: 30px;
+    text-decoration: none;
+    font-size: 16px;
+    opacity: 0.56;
+    font-weight: 500;
+    line-height: 20px;
+    transition: all 0.2s ease;
+}
+
+.menu a:hover {
+    color:#141619;
+    opacity: 1;
+    box-shadow: 4px;
+
+
+}
+
+.menu-log {
+    padding: 9px;
+    
+}
+
+.title--lg {
+    font-size: 140px;
+    line-height: 128px;
+    left: 0;
+    padding-top: 90px;
+    padding-left: 64px;
+    text-transform: uppercase;
+    font-family:'BMDANIEL-Bold', sans-serif;
+    color:#141619;
+    letter-spacing: -12.2px;
+}
+
+.section-img img {
+    width: 700px;
+    height: auto; 
+    position: absolute;
+    right: 0px;
+    top: 180px; 
+    
+   
+}
+
+/* Dành cho Rider */
+/*  Dành cho Merchants*/
+.rider-section {
+    width: 100%;
+    max-width: 100%;
+    padding:0 70px;
+    display: flex;
+    
+}
+
+.content-rider {
+    width: 50%;
+}
+
+.title-rider {
+    font-size: 50px;
+    font-weight: 600;
+    padding:20px -5px;
+}
+
+.rider-img {
+    position:absolute;
+    right: 0;
+    top: 830px;
+    padding-right: 70px;
+}
+
+.cta-group {
+    width: 230px;
+    height: 60px;
+    background: #3AC5C9;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    transition: all 0.2s ease;
+    cursor: pointer;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.cta-group .button {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Footer */
+.footer {
+    position: relative;
+}
+
+.footer-content {
+    display: flex;
+    padding: 100px 100px 0 100px;
+   
+    
+}
+
+.button--black {
+    background-color: #141619;
+    text-transform: uppercase;
+    position: absolute;
+    margin-right: 20px;
+    right: 5px;
+    transform: translateY(-150%);
+   
+
+}
+
+.footer-content::before{
+    content: "";
+    background: url(../img/custom-line-01.png)no-repeat;
+    left: 0; 
+    width: 100%; 
+    position: absolute;
+    margin-left: 50px;
+    height: 7px;
+    background-size: 100% 100%;
+    background-position: bottom center;
+}
+
+.footer-content::after {
+    content: "";
+    background: url(../img/custom-line-01.png)no-repeat;
+    left: 0; 
+    top: 270px;
+    width: 100%; 
+    margin-left: 50px;
+    position: absolute;
+    height: 7px;
+    background-size: 100% 100%;
+    background-position: bottom center;
+}    
+
+.footer-content-up {
+  width: 100%;
+}
+
+.footer-content-up .title-footer {
+
+    font-size: 40px;
+    font-weight: 700;
+    color: #141619;
+    letter-spacing: 1px;
+    margin-top: 30px;
+}
+
+.footer-content-up p {
+    font-size: 20px;
+    line-height: 25px;
+    color:#646d72;
+    width: 700px;
+}
+
+.footer-content-down {
+    display: flex;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transform: translate(70%,-370%);
+}
+
+.button-group {
+    padding: 30px 0;
+    padding-left: 50px;
+}
+
+.social-icons {
+    width: 560px;
+    display: flex;
+    justify-content: end;
+    transform: translateY(-120%);
+}
+
+.social-icons a {
+    padding:0 5px ;
+}
+
+.company_content-box {
+    padding: 0 50px;
+    margin-top: 70px;
+}
+
+.company_content-box p {
+    font-size: 15px;
+    color: #141619;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    width: 580px;
+    
+}
+
+.company_content-box span {
+    color: #646d72;
+    font-weight: 500;
+   
+}
+
+.company_content-box a {
+    color: #646d72;
+    padding: 10px;
+    font-weight: 500;
+    
+}
+
+.move {
+    transform: translateY(-120%);
+    padding-left: 0;
+    
+}
+
+.footer_visual img{
+    position: absolute;
+    right: 22px;
+    top: 180px;
+}
+
+.footer_visual a {
+    position: absolute;
+    right: 10px;
+    bottom: 280px;
+}
+
